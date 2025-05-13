@@ -8,9 +8,11 @@ namespace MeMawProject
 {
     internal class int_rent_modelObject
     {
+          public string name { get; set; }
         public string Place { get; set; }
         public string State { get; set; }
      public string Placeid { get; set; }
+   
 
         public float Predicted { get; set; }
        
